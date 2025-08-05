@@ -1,5 +1,5 @@
 ```python
-# Cnum=int(input("Enter the numbers of tuples:"))
+num=int(input("Enter the numbers of tuples:"))
 tup_list=[]
 for i in range(num):
     elements=input(f"Enter elements of tuple {i+1}: ")
@@ -8,4 +8,3 @@ for i in range(num):
 result=list(map(sum,tup_list))
 print("Sum of the elements:",result)
             
-ompute-the-sum-of-elements-in-tuple
